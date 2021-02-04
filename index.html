@@ -23,9 +23,9 @@
 
     <form action="">
         <p>Por favor emita su voto:</p>
-        <input type="radio" id="aprobado" name="voto" value="true">
+        <input type="radio" id="voto" name="voto" value="true">
         <label for="aprobado">Aprobado</label><br>
-        <input type="radio" id="no_aprobado" name="voto" value="false">
+        <input type="radio" id="voto" name="voto" value="false">
         <label for="no_aprobado">No aprobado</label><br>
 
         <input type="submit" class="button" value="Submit" onclick="send(this.voto)">
@@ -39,6 +39,7 @@
 
     function send(voto) {
 
+        
         alert('mokkafe.ika.mx/voto/' + voto);
     
     }
