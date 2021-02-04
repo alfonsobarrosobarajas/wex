@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <style>
+        .button {
+            background-color: #4c56af;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
 <body>
 
 
-<form action="/action_page.php">
-  <p>Por favor emita su voto:</p>
-  <input type="radio" id="aprobado" name="voto" value="Aprobado">
-  <label for="aprobado">Aprobado</label><br>
-  <input type="radio" id="no_aprobado" name="voto" value="No aprobado">
-  <label for="no_aprobado">No aprobado</label><br>
+    <form action="">
+        <p>Por favor emita su voto:</p>
+        <input type="radio" id="aprobado" name="voto" value="Aprobado">
+        <label for="aprobado">Aprobado</label><br>
+        <input type="radio" id="no_aprobado" name="voto" value="No aprobado">
+        <label for="no_aprobado">No aprobado</label><br>
 
-<input type="submit" value="Submit">
-</form>
+        <input type="submit" class="button" value="Submit">
+    </form>
 
 </body>
+
 </html>
